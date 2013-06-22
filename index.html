@@ -6,11 +6,77 @@
 			box-sizing: border-box;
 			margin: 0;
 			padding: 0;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		body {
+/*background: #ffffff;*/
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+/*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQlIiBzdG9wLWNvbG9yPSIjZDJhNjJhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjZDJhNjJhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTMlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTMlIiBzdG9wLWNvbG9yPSIjOTc0MTdhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);*/
+
+/*background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(4%,#d2a62a), color-stop(49%,#d2a62a), color-stop(49%,#ffffff), color-stop(53%,#ffffff), color-stop(53%,#97417a));
+background: -webkit-linear-gradient(left, #ffffff 4%,#d2a62a 4%,#d2a62a 49%,#ffffff 49%,#ffffff 53%,#97417a 53%);
+background: -o-linear-gradient(left, #ffffff 4%,#d2a62a 4%,#d2a62a 49%,#ffffff 49%,#ffffff 53%,#97417a 53%);
+background: -ms-linear-gradient(left, #ffffff 4%,#d2a62a 4%,#d2a62a 49%,#ffffff 49%,#ffffff 53%,#97417a 53%);*/
+background: linear-gradient(to right, #ffffff 4%,#d2a62a 4%,#d2a62a 49%,#ffffff 49%,#ffffff 53%,#97417a 53%);
+background-size: 100px;
+background-position: center;
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#97417a',GradientType=1 );*/
+			padding: 5px 0;
+		}
+
+		body > section {
+			min-height: 100%;
 			background: white url(flat.png) center center no-repeat;
+			position: relative;
+		}
+
+		section > div {
+			position: absolute;
+			top: 200px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			width: 375px;
+			max-width: 93.75%;
+			height: 0;
+			font-family: Helvetica, arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			color: #111;
+		}
+
+		a {
+			color: #97417a;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #d2a62a;
+		}
+
+		@media (max-width: 400px) {
+			body > section {
+				background-size: contain;
+			}
 		}
 	</style>
 </head>
 <body>
-	
+	<section>
+		<div>
+			<a href="https://www.facebook.com/aebsr">Antoine</a> &amp; <a href="https://www.facebook.com/kelley.b.butler">Kelley</a> will say &ldquo;I do&rdquo; again, for their 10 year annivesary.
+			<br />
+			June 22nd, 2015 in Las Vegas, NV
+			<br />
+			<br />
+			Save the date and stay tuned.
+		</div>
+	</section>
 </body>
 </html>
