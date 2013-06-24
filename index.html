@@ -28,22 +28,29 @@ background-position: center;
 			padding: 5px 0;
 		}
 
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+
 		body > section {
 			min-height: 100%;
-			background: white url(flat.png) center center no-repeat;
+			background: white;
 			position: relative;
 		}
 
 		section > div {
 			position: absolute;
-			top: 200px;
+			top: 0;
 			left: 0;
 			right: 0;
 			bottom: 0;
 			margin: auto;
 			width: 375px;
 			max-width: 93.75%;
-			height: 0;
+			height: 50%;
+			min-height: 350px;
 			font-family: Helvetica, arial, sans-serif;
 			font-size: 14px;
 			text-align: center;
@@ -80,6 +87,7 @@ background-position: center;
 <body>
 	<section>
 		<div>
+			<img src="flat.png" alt="" />
 			<em>2</em> years from <em>2day </em>
 			<small>(that's June 22, 2015 for y'all who have trouble with calendars)</small>
 			It'll be <em>2x</em> as much fun &amp; <em>2x</em> as crazy<br /> when 
