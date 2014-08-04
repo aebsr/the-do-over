@@ -1,0 +1,21 @@
+{
+  "name": "the-do-over",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aebsr/the-do-over",
+  "authors": [
+    "Antoine Butler <antoinebsr@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~2.1.3",
+    "bedrock": "~1.7",
+    "basscss": "git@github.com:jxnblk/basscss.git"
+  }
+}

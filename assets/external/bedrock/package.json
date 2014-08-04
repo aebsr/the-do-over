@@ -1,0 +1,28 @@
+{
+  "name": "bedrock",
+  "description": "a highly unopinionated and minimal front-end toolset built in LESS",
+  "version": "1.7.0",
+  "devDependencies": {
+    "grunt-bump": "0.0.13",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "baseline",
+    "css",
+    "less",
+    "bedrock"
+  ],
+  "homepage": "http://github.com/aebsr/bedrock/",
+  "author": "Antoine Butler <antoinebsr@gmail.com> (https://github.com/aebsr)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aebsr/bedrock.git"
+  },
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "WTFPL",
+      "url": "http://www.wtfpl.net/about/"
+    }
+  ]
+}
